@@ -18,5 +18,4 @@ def mgs_kafka():
     except KeyboardInterrupt:
         pass
     finally:
-
         consumer.close()
